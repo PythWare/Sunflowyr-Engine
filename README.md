@@ -8,7 +8,7 @@ Sunflowyr Engine will also include a Mod Creator and deluxe Mod Manager for usag
 
 # Details
 
-It unpacks everything from the RWBY GE containers (all 400k+ files), assigns taildata (a method I use for safe mod appending/disabling) to unpacked files, converts various formats to easier to edit formats (FBX, PNG, wav, etc) but it still keeps the original Unity formats incase modders want to work with the Unity format versions, etc.
+It unpacks everything from the RWBY GE containers (all 400k+ files), assigns taildata (a method I use for safe mod appending/disabling) to unpacked files, converts various formats to easier to edit formats (FBX, GLB, PNG, wav, etc) but it still keeps the original Unity formats incase modders want to work with the Unity format versions, etc.
 
 Its purpose is to unpack everything, ensure modded files can be properly applied to the containers by appending mods and auto updating metadata, and ensure safe mod disabling.
 
@@ -26,6 +26,6 @@ Download mods you want, place the mods in the Mods folder, and apply/disable as 
 
 # GUI examples of the main hub
 
-<img width="1400" height="850" alt="su1" src="https://github.com/user-attachments/assets/91592945-8e5a-4e22-b683-5c811da849a2" />
+<img width="1229" height="821" alt="su4" src="https://github.com/user-attachments/assets/9af27c57-185d-46fa-8c16-83c9e93684b4" />
 
-<img width="1567" height="1032" alt="su2" src="https://github.com/user-attachments/assets/0ca92e45-98ee-4385-8cb0-5faa340897dc" />
+<img width="1245" height="704" alt="su5" src="https://github.com/user-attachments/assets/8b9cc881-1488-4440-b8cc-ac6cee5b0452" />
