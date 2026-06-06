@@ -26,6 +26,14 @@ Download mods you want, place the mods in the Mods folder, and apply/disable as 
 
 # GUI examples of the main hub
 
-<img width="1229" height="821" alt="su4" src="https://github.com/user-attachments/assets/9af27c57-185d-46fa-8c16-83c9e93684b4" />
+<img width="1390" height="708" alt="se1" src="https://github.com/user-attachments/assets/e3686662-22e2-429d-ac6a-bfbfb50969e1" />
 
-<img width="1245" height="704" alt="su5" src="https://github.com/user-attachments/assets/8b9cc881-1488-4440-b8cc-ac6cee5b0452" />
+<img width="1386" height="675" alt="se2" src="https://github.com/user-attachments/assets/9dd0e40e-cfc2-460c-a460-4dbbd123eb3f" />
+
+<img width="1365" height="682" alt="se3" src="https://github.com/user-attachments/assets/c7cd7c8e-20a3-454d-8f7b-fe2da6cdd3ac" />
+
+<img width="1331" height="690" alt="se4" src="https://github.com/user-attachments/assets/81c49d18-ced5-479c-9938-9e72e3804fab" />
+
+<img width="1345" height="656" alt="se5" src="https://github.com/user-attachments/assets/a3639760-98e0-4dfa-a045-64de43f1c832" />
+
+<img width="1377" height="669" alt="se6" src="https://github.com/user-attachments/assets/57d899bd-1534-4d7c-b84b-9eb59c6215d3" />
