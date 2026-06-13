@@ -30,6 +30,10 @@ Download mods you want, place the mods in the Mods folder, and apply/disable as 
 
 <img width="1496" height="780" alt="mod5" src="https://github.com/user-attachments/assets/069e6607-7b20-4d18-9894-f7906e50078f" />
 
+<img width="1580" height="926" alt="mod1" src="https://github.com/user-attachments/assets/2221a929-ba48-4589-8019-923f2d64e3ab" />
+
+<img width="1579" height="933" alt="mod3" src="https://github.com/user-attachments/assets/96f1c62f-0878-4274-94e3-2aec8fe359e0" />
+
 <img width="1509" height="716" alt="mod6" src="https://github.com/user-attachments/assets/bc2e3eee-adbf-4862-82c8-6e5d31760ec7" />
 
 <img width="1425" height="705" alt="mod7" src="https://github.com/user-attachments/assets/d689cb7c-49d4-4f94-8520-f5310aaf64ed" />
