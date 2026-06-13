@@ -4,7 +4,7 @@ Sunflowyr Engine is an upcoming high end modding toolkit for RWBY Grimm Eclipse.
 
 It's a modding engine i'm developing to make modding RWBY GE significantly easier and pleasant to use. It's RWBY inspired.
 
-Sunflowyr Engine will also include a Mod Creator and deluxe Mod Manager for usage as well. The Mod Creator will turn modded files into .RWBYGEP (mod package) or .RWBYGEI (mod installer) files to be used with the Mod Manager, they're custom mod formats I designed. RWBYGEP is ideal for mods that don't require choosing what to install while RWBYGEI is preferable when modders want to allow gamers to choose what parts of the mod to install.
+Sunflowyr Engine will also include a Mod Creator and deluxe Mod Manager (unlike any other Mod Manager, it's called Beacon Studies) for usage as well. The Mod Creator will turn modded files into .RWBYGEP (mod package) or .RWBYGEI (mod installer) files to be used with the Mod Manager, they're custom mod formats I designed. RWBYGEP is ideal for mods that don't require choosing what to install while RWBYGEI is preferable when modders want to allow gamers to choose what parts of the mod to install.
 
 # Details
 
@@ -24,16 +24,22 @@ The modding workflow for users that don't want to mod but just use mods will be 
 
 Download mods you want, place the mods in the Mods folder, and apply/disable as desired.
 
-# GUI examples of the main hub
+# GUI examples
 
-<img width="1390" height="708" alt="se1" src="https://github.com/user-attachments/assets/e3686662-22e2-429d-ac6a-bfbfb50969e1" />
+<img width="1486" height="718" alt="mod4" src="https://github.com/user-attachments/assets/8183d2a3-8b35-44c2-9354-a25185869b23" />
 
-<img width="1386" height="675" alt="se2" src="https://github.com/user-attachments/assets/9dd0e40e-cfc2-460c-a460-4dbbd123eb3f" />
+<img width="1496" height="780" alt="mod5" src="https://github.com/user-attachments/assets/069e6607-7b20-4d18-9894-f7906e50078f" />
 
-<img width="1365" height="682" alt="se3" src="https://github.com/user-attachments/assets/c7cd7c8e-20a3-454d-8f7b-fe2da6cdd3ac" />
+<img width="1509" height="716" alt="mod6" src="https://github.com/user-attachments/assets/bc2e3eee-adbf-4862-82c8-6e5d31760ec7" />
 
-<img width="1331" height="690" alt="se4" src="https://github.com/user-attachments/assets/81c49d18-ced5-479c-9938-9e72e3804fab" />
+<img width="1425" height="705" alt="mod7" src="https://github.com/user-attachments/assets/d689cb7c-49d4-4f94-8520-f5310aaf64ed" />
 
-<img width="1345" height="656" alt="se5" src="https://github.com/user-attachments/assets/a3639760-98e0-4dfa-a045-64de43f1c832" />
+<img width="1457" height="748" alt="mod8" src="https://github.com/user-attachments/assets/4db38481-9efc-4280-a028-a2af44285a1a" />
 
-<img width="1377" height="669" alt="se6" src="https://github.com/user-attachments/assets/57d899bd-1534-4d7c-b84b-9eb59c6215d3" />
+<img width="1400" height="718" alt="mod9" src="https://github.com/user-attachments/assets/d66ab1f3-564c-4d09-b711-e278f9c86b39" />
+
+<img width="1431" height="693" alt="mod10" src="https://github.com/user-attachments/assets/fd366b75-e8d4-4895-8feb-b10bfe8e81aa" />
+
+<img width="1421" height="702" alt="mod11" src="https://github.com/user-attachments/assets/724e5a17-d179-429f-9578-aa86588a1cd0" />
+
+<img width="1383" height="719" alt="mod12" src="https://github.com/user-attachments/assets/d45e4d6f-61b1-4b78-9cee-ac875091b388" />
