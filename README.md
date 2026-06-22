@@ -26,9 +26,11 @@ Download mods you want, place the mods in the Mods folder, and apply/disable as 
 
 # GUI examples
 
-<img width="1486" height="718" alt="mod4" src="https://github.com/user-attachments/assets/8183d2a3-8b35-44c2-9354-a25185869b23" />
+<img width="1451" height="803" alt="sunf1" src="https://github.com/user-attachments/assets/a7d6ea6f-69bc-43c0-a86a-bd4d796b39ba" />
 
-<img width="1496" height="780" alt="mod5" src="https://github.com/user-attachments/assets/069e6607-7b20-4d18-9894-f7906e50078f" />
+<img width="1412" height="758" alt="sunf2" src="https://github.com/user-attachments/assets/1072a147-734a-4061-a1a9-971a267e45fc" />
+
+<img width="1358" height="651" alt="sunf3" src="https://github.com/user-attachments/assets/0d7cfd8f-ab67-4d35-9697-1d09aea81263" />
 
 <img width="1580" height="926" alt="mod1" src="https://github.com/user-attachments/assets/2221a929-ba48-4589-8019-923f2d64e3ab" />
 
