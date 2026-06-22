@@ -49,3 +49,11 @@ Download mods you want, place the mods in the Mods folder, and apply/disable as 
 <img width="1421" height="702" alt="mod11" src="https://github.com/user-attachments/assets/724e5a17-d179-429f-9578-aa86588a1cd0" />
 
 <img width="1383" height="719" alt="mod12" src="https://github.com/user-attachments/assets/d45e4d6f-61b1-4b78-9cee-ac875091b388" />
+
+# Mod examples
+
+Yang's Shotgun particles changed to Lilac and Yang's ingame textures changed
+
+<img width="618" height="581" alt="pa1" src="https://github.com/user-attachments/assets/98f4d815-4385-4f7d-be54-35c3360399d0" />
+
+<img width="1280" height="732" alt="yang_6" src="https://github.com/user-attachments/assets/6ace6e99-3e88-4b74-b688-bb6e426a5ed2" />
