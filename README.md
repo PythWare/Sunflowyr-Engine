@@ -1,16 +1,16 @@
 # Sunflowyr Engine
 
-Sunflowyr Engine is an upcoming high end modding toolkit for RWBY Grimm Eclipse.
+Sunflowyr Engine is an upcoming high end modding toolkit for RWBY Grimm Eclipse. Scroll to bottom if you want to see GUI examples
 
 It's a modding engine i'm developing to make modding RWBY GE significantly easier and pleasant to use. It's RWBY inspired.
 
-Sunflowyr Engine will also include a Mod Creator and deluxe Mod Manager (unlike any other Mod Manager, it's called Beacon Studies) for usage as well. The Mod Creator will turn modded files into .RWBYGEP (mod package) or .RWBYGEI (mod installer) files to be used with the Mod Manager, they're custom mod formats I designed. RWBYGEP is ideal for mods that don't require choosing what to install while RWBYGEI is preferable when modders want to allow gamers to choose what parts of the mod to install.
+Sunflowyr Engine will also include a Mod Creator, deluxe Mod Manager (unlike any other Mod Manager, it's called Beacon Studies), and AssetBundle Generator (used for generating new AssetBundle files for RWBY GE to load, will be explained further down in AssetBundle Generator section) for usage as well. The Mod Creator will turn modded files into .RWBYGEP (mod package) or .RWBYGEI (mod installer) files to be used with the Mod Manager, they're custom mod formats I designed. RWBYGEP is ideal for mods that don't require choosing what to install while RWBYGEI is preferable when modders want to allow gamers to choose what parts of the mod to install.
 
 # Details
 
-It unpacks everything from the RWBY GE containers (all 400k+ files), assigns taildata (a method I use for safe mod appending/disabling) to an external json, converts various formats to easier to edit formats (FBX, GLB, PNG, wav, etc) but it still keeps the original Unity formats incase modders want to work with the Unity format versions, etc.
+It unpacks everything from the RWBY GE containers, assigns taildata (a method I use for safe mod appending/disabling) to an external json, converts various formats to easier to edit formats (FBX, GLB, PNG, wav, etc) but it still keeps the original Unity formats incase modders want to work with the Unity format versions, etc.
 
-Its purpose is to unpack everything, ensure modded files can be properly applied to the containers by appending mods and auto updating metadata, and ensure safe mod disabling.
+Its purpose is to unpack everything, ensure modded files can be properly applied to the containers by appending mods and auto updating metadata, ensure safe mod disabling, and support AssetBundle generating for new assets being used ingame without having to replace existing files/assets.
 
 There is no size limits for mods, you aren't required to keep mods the same size as the original files, dynamic file sizes are supported so whether your mods are smaller/larger doesn't matter.
 
@@ -18,11 +18,17 @@ There is no size limits for mods, you aren't required to keep mods the same size
 
 The modding workflow for modders will be like this:
 
-Unpack the game, mod whatever files, turn modded files into mod packages/installers (custom mod formats I designed which are .RWBYGEP and RWBYGEI) with the Mod Creator (similar to my Aldnoah Engine where you turn modded files into compatible mod formats with the Mod Manager), and then apply/disable as desired with the Mod Manager
+Unpack the game, mod whatever files, turn modded files into mod packages/installers (custom mod formats I designed which are .RWBYGEP and RWBYGEI) with the Mod Creator (similar to my Aldnoah Engine where you turn modded files into compatible mod formats with the Mod Manager), and then apply/disable as desired with the Mod Manager or if going the AssetBundle route you'd select the files you want included and click Build AssetBundle (further details in AssetBundle section),
 
 The modding workflow for users that don't want to mod but just use mods will be like this:
 
 Download mods you want, place the mods in the Mods folder, and apply/disable as desired.
+
+# AssetBundle Generator
+
+Sunflowyr Engine's AssetBundle Generator can create valid AssetBundles for RWBY GE to use. What that means is you can make mods by building an AssetBundle without needing Unity installed or you can replace existing assets through mod appending (the Mod Creator/Beacon Studies route). To make use of new AssetBundles, BepInEx will be needed. 
+
+The quick explanation on AssetBundle vs Mod Appending is if you create a new AssetBundle, it allows you to bundle the new assets you want applied to the game without having to replace existing assets. However, BepInEx is needed if you choose to use AssetBundle mods since the game by default wouldn't know to load new AssetBundle files without BepInEx or rebuilding RWBY GE with Unity. If you don't want to apply new assets to a game and just want to mod the existing assets, it's better to do the Mod Appending approach (Mod Creator/Beacon Studies usage) because Sunflowyr Engine itself does not require BepInEx. So if you want to add new assets to RWBY GE (models/textures/playable characters/etc) without replacing existing assets go the AssetBundle Generator route, if you only want to mod existing assets that get unpacked then use Mod Creator/Beacon Studies.
 
 # GUI examples
 
@@ -49,6 +55,10 @@ Download mods you want, place the mods in the Mods folder, and apply/disable as 
 <img width="1421" height="702" alt="mod11" src="https://github.com/user-attachments/assets/724e5a17-d179-429f-9578-aa86588a1cd0" />
 
 <img width="1383" height="719" alt="mod12" src="https://github.com/user-attachments/assets/d45e4d6f-61b1-4b78-9cee-ac875091b388" />
+
+<img width="1380" height="703" alt="mod13" src="https://github.com/user-attachments/assets/4aab9fcd-d05a-4c8b-b826-616a33db0a3d" />
+
+<img width="1334" height="647" alt="mod14" src="https://github.com/user-attachments/assets/49a1d256-f5c1-4035-91fd-b76ddd75b069" />
 
 # Mod examples
 
