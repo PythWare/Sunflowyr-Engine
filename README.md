@@ -52,8 +52,14 @@ Download mods you want, place the mods in the Mods folder, and apply/disable as 
 
 # Mod examples
 
-Yang's Shotgun particles changed to Lilac and Yang's ingame textures changed
+Yang's Shotgun particles changed to Lilac, Yang's ingame textures changed, and even a playable Katsuki bakugo mod example
 
 <img width="618" height="581" alt="pa1" src="https://github.com/user-attachments/assets/98f4d815-4385-4f7d-be54-35c3360399d0" />
 
 <img width="1280" height="732" alt="yang_6" src="https://github.com/user-attachments/assets/6ace6e99-3e88-4b74-b688-bb6e426a5ed2" />
+
+<img width="1280" height="748" alt="bak4" src="https://github.com/user-attachments/assets/9c392e49-d297-439c-9238-7ee24f4b8216" />
+
+<img width="1235" height="667" alt="bak5" src="https://github.com/user-attachments/assets/eeed5d70-1310-4efd-b6a4-d278ebc464fa" />
+
+<img width="1232" height="675" alt="bak6" src="https://github.com/user-attachments/assets/cee208d0-7609-4853-8f5b-79f870f29fd9" />
