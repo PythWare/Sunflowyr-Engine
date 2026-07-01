@@ -32,6 +32,10 @@ The quick explanation on AssetBundle vs Mod Appending is if you create a new Ass
 
 So if you want to add new assets to RWBY GE (models/textures/playable characters/etc) without replacing existing assets go the AssetBundle Generator route, if you only want to mod existing assets that get unpacked and don't want extra dependencies then use Mod Creator/Beacon Studies.
 
+# Sunflowyr Morpher
+
+A lightweight tool i'm building for porting GLB/FBX models to RWBY GE, also supports auto converting the model texture the FBX/GLB uses to what RWBY GE can read.
+
 # GUI examples
 
 <img width="1451" height="803" alt="sunf1" src="https://github.com/user-attachments/assets/a7d6ea6f-69bc-43c0-a86a-bd4d796b39ba" />
@@ -62,9 +66,15 @@ So if you want to add new assets to RWBY GE (models/textures/playable characters
 
 <img width="1334" height="647" alt="mod14" src="https://github.com/user-attachments/assets/49a1d256-f5c1-4035-91fd-b76ddd75b069" />
 
+<img width="1920" height="951" alt="morph1" src="https://github.com/user-attachments/assets/fba707e2-ba5c-4a23-9680-5a348f0429fe" />
+
+<img width="1921" height="943" alt="morph2" src="https://github.com/user-attachments/assets/735ee566-ef50-407e-a06d-0e65cf99d45f" />
+
+<img width="1921" height="938" alt="morph3" src="https://github.com/user-attachments/assets/6dcfeaa1-09be-46bb-974f-687735e3a68d" />
+
 # Mod examples
 
-Yang's Shotgun particles changed to Lilac, Yang's ingame textures changed, and even a playable Katsuki bakugo mod example
+Yang's Shotgun particles changed to Lilac, Yang's ingame textures changed, and even playable Katsuki bakugo/All Might/Izuku Midoriya mod examples
 
 <img width="618" height="581" alt="pa1" src="https://github.com/user-attachments/assets/98f4d815-4385-4f7d-be54-35c3360399d0" />
 
@@ -75,3 +85,9 @@ Yang's Shotgun particles changed to Lilac, Yang's ingame textures changed, and e
 <img width="1235" height="667" alt="bak5" src="https://github.com/user-attachments/assets/eeed5d70-1310-4efd-b6a4-d278ebc464fa" />
 
 <img width="1232" height="675" alt="bak6" src="https://github.com/user-attachments/assets/cee208d0-7609-4853-8f5b-79f870f29fd9" />
+
+<img width="1281" height="751" alt="allmight2" src="https://github.com/user-attachments/assets/269cd95d-dfed-405c-bfb9-3eae952d24c5" />
+
+<img width="1234" height="718" alt="allmight4" src="https://github.com/user-attachments/assets/e8b66130-7c7e-4858-b813-2f4b98677c1f" />
+
+<img width="1280" height="747" alt="izuku1" src="https://github.com/user-attachments/assets/17faef0a-dd15-41e4-a764-3299c6d08670" />
