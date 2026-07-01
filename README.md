@@ -4,7 +4,7 @@ Sunflowyr Engine is an upcoming high end modding toolkit for RWBY Grimm Eclipse.
 
 It's a modding engine i'm developing to make modding RWBY GE significantly easier and pleasant to use. It's RWBY inspired.
 
-Sunflowyr Engine will also include a Mod Creator, deluxe Mod Manager (unlike any other Mod Manager, it's called Beacon Studies), and AssetBundle Generator (used for generating new AssetBundle files for RWBY GE to load, will be explained further down in AssetBundle Generator section) for usage as well. The Mod Creator will turn modded files into .RWBYGEP (mod package) or .RWBYGEI (mod installer) files to be used with the Mod Manager, they're custom mod formats I designed. RWBYGEP is ideal for mods that don't require choosing what to install while RWBYGEI is preferable when modders want to allow gamers to choose what parts of the mod to install.
+Sunflowyr Engine will also include a Mod Creator, deluxe Mod Manager (unlike any other Mod Manager, it's called Beacon Studies), Sunflowyr Morpher (model/texture porting tool, read further at the bottom of the readme), and AssetBundle Generator (used for generating new AssetBundle files for RWBY GE to load, will be explained further down in AssetBundle Generator section) for usage as well. The Mod Creator will turn modded files into .RWBYGEP (mod package) or .RWBYGEI (mod installer) files to be used with the Mod Manager, they're custom mod formats I designed. RWBYGEP is ideal for mods that don't require choosing what to install while RWBYGEI is preferable when modders want to allow gamers to choose what parts of the mod to install.
 
 # Details
 
