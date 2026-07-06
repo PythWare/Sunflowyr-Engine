@@ -2,7 +2,7 @@
 
 Sunflowyr Engine is an upcoming high end modding toolkit for RWBY Grimm Eclipse. Scroll to bottom if you want to see GUI examples
 
-It's a modding engine i'm developing to make modding RWBY GE significantly easier and pleasant to use. It's RWBY inspired.
+It's a modding engine i'm developing to make modding RWBY GE significantly easier and pleasant to use. It's RWBY inspired. Written in Python with the GUI using Tkinter (to keep the toolkit lightweight with minimal dependencies) but heavily customized to have a rad scroll-like GUI.
 
 Sunflowyr Engine will also include a Mod Creator, deluxe Mod Manager (unlike any other Mod Manager, it's called Beacon Studies), Sunflowyr Morpher (model/texture porting tool, read further at the bottom of the readme), and AssetBundle Generator (used for generating new AssetBundle files for RWBY GE to load, will be explained further down in AssetBundle Generator section) for usage as well. The Mod Creator will turn modded files into .RWBYGEP (mod package) or .RWBYGEI (mod installer) files to be used with the Mod Manager, they're custom mod formats I designed. RWBYGEP is ideal for mods that don't require choosing what to install while RWBYGEI is preferable when modders want to allow gamers to choose what parts of the mod to install.
 
@@ -38,11 +38,11 @@ A lightweight tool i'm building for porting GLB/FBX models to RWBY GE, also supp
 
 # GUI examples
 
-<img width="1451" height="803" alt="sunf1" src="https://github.com/user-attachments/assets/a7d6ea6f-69bc-43c0-a86a-bd4d796b39ba" />
+<img width="1365" height="672" alt="sunfl1" src="https://github.com/user-attachments/assets/635a74d4-0dce-413c-bef2-4dea40f93579" />
 
-<img width="1412" height="758" alt="sunf2" src="https://github.com/user-attachments/assets/1072a147-734a-4061-a1a9-971a267e45fc" />
+<img width="1367" height="682" alt="sunfl2" src="https://github.com/user-attachments/assets/38bc45ee-8cf4-4615-87c6-47ad29704f07" />
 
-<img width="1358" height="651" alt="sunf3" src="https://github.com/user-attachments/assets/0d7cfd8f-ab67-4d35-9697-1d09aea81263" />
+<img width="1358" height="671" alt="sunfl3" src="https://github.com/user-attachments/assets/9ca6799e-04b4-4686-a333-bab229d6bdd1" />
 
 <img width="1580" height="926" alt="mod1" src="https://github.com/user-attachments/assets/2221a929-ba48-4589-8019-923f2d64e3ab" />
 
@@ -54,13 +54,11 @@ A lightweight tool i'm building for porting GLB/FBX models to RWBY GE, also supp
 
 <img width="1457" height="748" alt="mod8" src="https://github.com/user-attachments/assets/4db38481-9efc-4280-a028-a2af44285a1a" />
 
-<img width="1400" height="718" alt="mod9" src="https://github.com/user-attachments/assets/d66ab1f3-564c-4d09-b711-e278f9c86b39" />
+<img width="1548" height="962" alt="sunfl4" src="https://github.com/user-attachments/assets/b04e5135-1a92-4b77-9cc7-be4ea8fcda24" />
 
-<img width="1431" height="693" alt="mod10" src="https://github.com/user-attachments/assets/fd366b75-e8d4-4895-8feb-b10bfe8e81aa" />
+<img width="1517" height="947" alt="sunfl5" src="https://github.com/user-attachments/assets/0401055f-0175-40ac-b97c-61a8d69bd9e8" />
 
-<img width="1421" height="702" alt="mod11" src="https://github.com/user-attachments/assets/724e5a17-d179-429f-9578-aa86588a1cd0" />
-
-<img width="1383" height="719" alt="mod12" src="https://github.com/user-attachments/assets/d45e4d6f-61b1-4b78-9cee-ac875091b388" />
+<img width="1521" height="961" alt="sunfl6" src="https://github.com/user-attachments/assets/b31e8d5b-53c0-4098-aba6-641b0649669b" />
 
 <img width="1380" height="703" alt="mod13" src="https://github.com/user-attachments/assets/4aab9fcd-d05a-4c8b-b826-616a33db0a3d" />
 
