@@ -34,7 +34,7 @@ So if you want to add new assets to RWBY GE (models/textures/playable characters
 
 # Sunflowyr Morpher
 
-A lightweight tool i'm building for porting GLB/FBX models to RWBY GE, also supports auto converting the model texture the FBX/GLB uses to what RWBY GE can read.
+A lightweight tool i'm building for porting GLB/FBX models to RWBY GE, also supports auto converting the model texture the FBX/GLB uses to what RWBY GE can read. Think of it as a lightweight model/texture porting tool.
 
 # GUI examples
 
