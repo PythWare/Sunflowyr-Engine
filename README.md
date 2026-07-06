@@ -26,7 +26,7 @@ Download mods you want, place the mods in the Mods folder, and apply/disable as 
 
 # AssetBundle Generator
 
-Sunflowyr Engine's AssetBundle Generator can create valid AssetBundles for RWBY GE to use. What that means is you can make mods by building an AssetBundle without needing Unity installed or you can replace existing assets through mod appending (the Mod Creator/Beacon Studies route). To make use of AssetBundles mods, BepInEx will be needed. 
+Sunflowyr Engine's AssetBundle Generator can create valid AssetBundles for RWBY GE to use without needing Unity. What that means is you can make mods by building an AssetBundle without needing Unity installed or you can replace existing assets through mod appending (the Mod Creator/Beacon Studies route). To make use of AssetBundles mods, BepInEx will be needed. 
 
 The quick explanation on AssetBundle vs Mod Appending is if you create a new AssetBundle, it allows you to bundle the new assets you want applied to the game without having to replace existing assets. However, BepInEx is needed if you choose to use AssetBundle mods since the game by default wouldn't know to load new AssetBundle files without BepInEx or rebuilding RWBY GE with Unity or even extending existing containers (something I may look at later on) to reference and load new files. If you don't want to apply new assets to a game and just want to mod the existing assets, it's better to do the Mod Appending approach (Mod Creator/Beacon Studies usage) because Sunflowyr Engine itself does not require BepInEx. 
 
