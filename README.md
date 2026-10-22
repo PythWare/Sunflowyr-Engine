@@ -26,12 +26,6 @@ Sunflowyr Engine's AssetBundle Generator can create valid AssetBundles for RWBY 
 
 <img width="1334" height="647" alt="mod14" src="https://github.com/user-attachments/assets/49a1d256-f5c1-4035-91fd-b76ddd75b069" />
 
-<img width="1920" height="951" alt="morph1" src="https://github.com/user-attachments/assets/fba707e2-ba5c-4a23-9680-5a348f0429fe" />
-
-<img width="1921" height="943" alt="morph2" src="https://github.com/user-attachments/assets/735ee566-ef50-407e-a06d-0e65cf99d45f" />
-
-<img width="1921" height="938" alt="morph3" src="https://github.com/user-attachments/assets/6dcfeaa1-09be-46bb-974f-687735e3a68d" />
-
 # Mod examples
 
 Yang's Shotgun particles changed to Lilac, Yang's ingame textures changed, and even playable Team BRIM (yes, you can expand the playable roster and create new teams for RWBY GE) mod examples
