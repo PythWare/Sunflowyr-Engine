@@ -36,11 +36,13 @@ Updates for Sunflowyr Engine will be displayed in the Sunflowyr Engine updates p
 
 # Mod examples
 
-Yang's Shotgun particles changed to Lilac, Yang's ingame textures changed, and even playable Team BRIM (yes, you can expand the playable roster and create new teams for RWBY GE) mod examples
+Yang's Shotgun particles changed to Lilac, Yang's ingame textures changed, and even playable Team BRIM and Team CFVY (yes, you can expand the playable roster and create new teams for RWBY GE) mod examples
 
 <img width="618" height="581" alt="pa1" src="https://github.com/user-attachments/assets/98f4d815-4385-4f7d-be54-35c3360399d0" />
 
 <img width="1280" height="732" alt="yang_6" src="https://github.com/user-attachments/assets/6ace6e99-3e88-4b74-b688-bb6e426a5ed2" />
+
+<img width="1280" height="720" alt="cfvy" src="https://github.com/user-attachments/assets/209ecc7b-acd1-4c47-a3e8-156b1e0b9b78" />
 
 <img width="1280" height="720" alt="brim" src="https://github.com/user-attachments/assets/cffd2229-da3c-45bf-bdf1-92b43d7ccb75" />
 
