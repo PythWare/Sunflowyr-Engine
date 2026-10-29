@@ -18,13 +18,21 @@ There is no size limits for mods, you aren't required to keep mods the same size
 
 Sunflowyr Engine's AssetBundle Generator can create valid AssetBundles for RWBY GE to use without needing Unity. What that means is you can make mods by building an AssetBundle without needing Unity installed.
 
+# Sunflowyr Engine updates
+
+Updates for Sunflowyr Engine will be displayed in the Sunflowyr Engine updates panel, so instead of reading a readme for update notes you can read within the software.
+
 # GUI examples
 
-<img width="1365" height="672" alt="sunfl1" src="https://github.com/user-attachments/assets/635a74d4-0dce-413c-bef2-4dea40f93579" />
+<img width="1919" height="1032" alt="se1" src="https://github.com/user-attachments/assets/8e85e31f-4500-49c3-8927-6d14c16eaa81" />
 
-<img width="1380" height="703" alt="mod13" src="https://github.com/user-attachments/assets/4aab9fcd-d05a-4c8b-b826-616a33db0a3d" />
+<img width="1912" height="1040" alt="se2" src="https://github.com/user-attachments/assets/967f5d2d-f71a-4488-b5e4-9d65e11f30c8" />
 
-<img width="1334" height="647" alt="mod14" src="https://github.com/user-attachments/assets/49a1d256-f5c1-4035-91fd-b76ddd75b069" />
+<img width="1920" height="1036" alt="se3" src="https://github.com/user-attachments/assets/a22fc841-5491-4b2d-b278-cbd8a011133e" />
+
+<img width="1920" height="1034" alt="se4" src="https://github.com/user-attachments/assets/830d8b74-cfc8-478e-a59b-59c78c637fbd" />
+
+<img width="1915" height="1037" alt="se5" src="https://github.com/user-attachments/assets/364d2e26-bef0-44e4-8539-f5b37f2b657c" />
 
 # Mod examples
 
