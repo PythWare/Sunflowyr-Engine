@@ -4,11 +4,11 @@ Sunflowyr Engine is upcoming high end modding software for RWBY Grimm Eclipse. S
 
 It's a modding engine i'm developing to make modding RWBY GE significantly easier and pleasant to use. It's RWBY inspired.
 
-Sunflowyr Engine will also include other software I made such as AssetBundle Generator (used for generating new AssetBundle files for RWBY GE to load, will be explained further down in AssetBundle Generator section) for usage as well.
+Sunflowyr Engine will also include other software I made such as AssetBundle Generator (used for generating new AssetBundle files for RWBY GE to load, will be explained further down in AssetBundle Generator section), Asset Finder, Asset Inspector, Map Browser, etc for usage as well.
 
 # Details
 
-It unpacks everything from the RWBY GE containers, assigns taildata (a method I use for safe mod appending/disabling) to an external json, converts various formats to easier to edit formats (GLB, PNG, wav, etc) but it still keeps the original Unity formats incase modders want to work with the Unity format versions, etc.
+It unpacks everything from the RWBY GE containers, assigns taildata to an external json, converts various formats to easier to edit formats (GLB, PNG, wav, etc) but it still keeps the original Unity formats incase modders want to work with the Unity format versions, etc.
 
 New assets can be used in RWBY GE with Sunflowyr Engine without having to replace original assets
 
@@ -31,6 +31,14 @@ Updates for Sunflowyr Engine will be displayed in the Sunflowyr Engine updates p
 <img width="1920" height="1036" alt="se3" src="https://github.com/user-attachments/assets/a22fc841-5491-4b2d-b278-cbd8a011133e" />
 
 <img width="1920" height="1034" alt="se4" src="https://github.com/user-attachments/assets/830d8b74-cfc8-478e-a59b-59c78c637fbd" />
+
+<img width="1910" height="1026" alt="se5" src="https://github.com/user-attachments/assets/0c6d8c12-a571-4a3c-b94a-d343e06b240e" />
+
+<img width="1914" height="1041" alt="se6" src="https://github.com/user-attachments/assets/a31d199d-f195-463a-be1b-47dbc0fe84a1" />
+
+<img width="1915" height="1034" alt="se8" src="https://github.com/user-attachments/assets/06c58580-7ddc-4f19-a177-7c1fad0c9404" />
+
+<img width="1919" height="1046" alt="se9" src="https://github.com/user-attachments/assets/4e3028f4-3e72-4283-8644-302bfa2cd059" />
 
 <img width="1915" height="1037" alt="se5" src="https://github.com/user-attachments/assets/364d2e26-bef0-44e4-8539-f5b37f2b657c" />
 
