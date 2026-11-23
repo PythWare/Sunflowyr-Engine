@@ -1,5 +1,5 @@
 from __future__ import annotations
-import json, struct, subprocess, sys, zlib
+import json, os, struct, subprocess, sys, zlib
 from dataclasses import dataclass, field
 from functools import lru_cache
 from io import BytesIO
@@ -765,7 +765,7 @@ def convert_hierarchy_glbs(files: list[Path], folder: Path, data_root: Path, cac
 
                 shutil.rmtree(out)
             command = [sys.executable, str(Path(__file__).resolve().parent.parent / "solar_cli.py"), "prefab-from-glb", str(path), "--out", str(out), "--data", str(data_root), "--game-refs"]
-            result = subprocess.run(command, capture_output=True, text=True, cwd=str(Path(__file__).resolve().parent.parent))
+            result = subprocess.run(command, capture_output=True, text=True, encoding="utf-8", errors="replace", cwd=str(Path(__file__).resolve().parent.parent), env={**os.environ, "PYTHONIOENCODING": "utf-8"}, creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
             if result.returncode != 0:
                 tail = (result.stdout + result.stderr).strip().splitlines()[-1:] or ["conversion failed"]
                 problems.append(f"{Path(path).name}: {tail[0]}")

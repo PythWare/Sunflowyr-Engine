@@ -989,6 +989,7 @@ class SolarScrollGui:
             process = subprocess.Popen(
                 command,
                 cwd=str(self.project_root),
+                env={**os.environ, "PYTHONIOENCODING": "utf-8"},
                 stdout=subprocess.PIPE,
                 stderr=subprocess.STDOUT,
                 text=True,
