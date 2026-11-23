@@ -1,0 +1,111 @@
+Sunflowyr Engine, Loose Mod Guide
+
+Written by PythWare, this is a simple and short guide for using SE and building loose mods. Ideally you should read the readme before reading this guide. If you're gonna raise issues, read the damn readme and guide first!
+
+So loose mods change RWBY GE without altering the game files. A small loader (version.dll) placed next to rwby-ge.exe forces the game to use your edited objects (so your mod) while it runs. You can turn a mod off and the game is back to normal.
+
+1. Setup
+
+Install Python 3.10 or newer, then run:  python -m pip install Pillow numpy
+
+Start Sunflowyr Engine with main.pyw by double clicking on it or running it through cmd (tho it should work fine via double clicking).
+
+2. Unpacking the game (for modders, if you're a gamer that just wants to install mods you can ignore this step)
+
+On the home screen, set RWBY Data to the game's rwby-ge_Data folder and pick an output folder.
+
+Press Start. A full unpack takes a while (unpack speed is determined by whether you unpack to SSD or HDD, your hardware specs, etc. Essentially SE unpacking speed scales with your hardware so avoid unpacking to HDD) and only needs to be redone when SE updates.
+
+Use Asset Finder (magnifier icon) to search the unpack by name, type or path ID.
+
+3. Making a rad mod
+
+Create a new folder anywhere. Its name becomes the mod name.
+
+Copy the unpacked files you want to mod, paste them into that new folder, and edit them there. 
+
+Keep their unpack names (Name__path123.png and so on), that is how SE knows what they replace.
+
+Every file in the folder gets compiled by Loose Builder, so only keep the files you changed.
+
+4. Build and play
+
+Open Loose Builder (globe icon).
+
+Pick your mod folder and the game's rwby-ge_Data folder.
+
+Press Install Loader once. If SE ships a newer loader later, the button reads Update Loader.
+
+Press Build Mod. The mod gets compiled and placed at rwby-ge_Data\Sunflowyr_Mods and is switched on.
+
+
+
+
+Installed Mods tab: 
+
+Used for switching mods on or off, changing load order (later mods win), Zip or Remove mods.
+
+Mod Info tab: 
+
+Used for metadata. So the author, version, description, and preview images for the mod.
+
+If something goes wrong in game, check rwby-ge_Data\Sunflowyr_Mods\sunflowyr_loader.log.
+
+New content
+
+New files (PNG, JSON, GLB, and so on) without a __path number are added as new objects.
+
+In a JSON, point at a file in your folder with {"file": "Name.png"} and at an existing game object with {"game": "Name"}. Add "type", "in" or "id" when the name is shared.
+
+New objects go into sharedassets0.assets. To put them in another game file, place them in a subfolder named after it, for example level1\ or resources.assets\.
+
+To add entries to a game list (teams, characters, ResourceManager), name a JSON after the list object with .add.json at the end, for example Playable Team Database__path27892.add.json and list only the new entries.
+
+Replacing or adding new Audio (songs, noise, voiced lines, etc)
+
+So you need to use uncompressed wavs (should be uncompressed 16 bit or 24 bit PCM WAV. OGG only for unpacked game sounds left unedited) if you're adding or replacing audio. Suppose I want to change a song. i'd pick whatever the fuck i want to listen to, convert it to uncompressed wav, and then go from there. The key requirement of adding or replacing existing audio is ensuring the audio you want used is in uncompressed wav format. It's easy to work with and tons of websites/offline tools can create or convert to uncompress wav.
+
+Editing GLBs in Blender
+
+Import: glTF 2.0 with Guess Original Bind Pose turned on.
+
+Export: glTF 2.0 (.glb) with
+
+    Include > Custom Properties     on
+    Data > Mesh > Tangents          off
+    Data > Mesh > Attributes        on
+    Armature > Use Rest Position    off
+    Animation > Reset Pose Bones    off
+	
+Keep object and bone names. Blender's .001 style suffixes are fine.
+
+Deleting an object from a map hides it in game. New objects you add are created as new objects.
+
+Sharing mods
+
+Press Zip on your mod in the Installed Mods tab.
+
+Players press Import Zip in Loose Builder or unzip it into rwby-ge_Data\Sunflowyr_Mods and need the loader installed once.
+
+
+
+
+For gamers just wantin to play with mods
+
+Okay so, players dont need to unpack the game to play with mods. Unpacking is a step for modders. 
+
+With Sunflowyr Engine:
+
+Use Loose Builder, pick the game's rwby-ge_Data folder and press Install Loader once.
+
+Press Import Zip for each mod, then switch mods on or off in the Installed Mods tab.
+
+Without Sunflowyr Engine:
+
+Copy version.dll (from Solar_Logic\dll) next to rwby-ge.exe.
+
+Unzip each mod into rwby-ge_Data\Sunflowyr_Mods, so it becomes Sunflowyr_Mods\ModName\
+
+Optional: 
+
+Sunflowyr_Mods\mods.txt lists mod folder names in load order, one per line. Put # in front of a name to switch it off. Without mods.txt every mod folder loads.
