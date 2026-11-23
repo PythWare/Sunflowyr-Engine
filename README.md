@@ -8,7 +8,7 @@ Sunflowyr Engine also includes other software I made such as Loose Builder (used
 
 SE is entirely coded manually, no AI was used (same with all my software I release on github). I have been working on SE since 2025, it's my biggest modding project. I hope everyone likes it
 
-SE's name (Sunflowyr Engine) is inspired by the Yang Xiao Long x Lie Ren pairing, if you don't like the software's name, I don't care. I designed the software and I will name it what i want to!
+SE's name (Sunflowyr Engine) is inspired by the Yang Xiao Long x Lie Ren pairing. If you don't like the software's name, I don't care. I designed the software and I will name it what i want to!
 
 # Details
 
