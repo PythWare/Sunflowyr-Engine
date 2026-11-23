@@ -1,0 +1,60 @@
+{
+  "unityVersion": "5.4.1p4",
+  "classId": 225,
+  "nodes": [
+    [
+      0,
+      "CanvasGroup",
+      "Base",
+      0
+    ],
+    [
+      1,
+      "PPtr<GameObject>",
+      "m_GameObject",
+      65601
+    ],
+    [
+      2,
+      "int",
+      "m_FileID",
+      1
+    ],
+    [
+      2,
+      "SInt64",
+      "m_PathID",
+      1
+    ],
+    [
+      1,
+      "UInt8",
+      "m_Enabled",
+      16641
+    ],
+    [
+      1,
+      "float",
+      "m_Alpha",
+      2048
+    ],
+    [
+      1,
+      "bool",
+      "m_Interactable",
+      2048
+    ],
+    [
+      1,
+      "bool",
+      "m_BlocksRaycasts",
+      2048
+    ],
+    [
+      1,
+      "bool",
+      "m_IgnoreParentGroups",
+      18432
+    ]
+  ]
+}

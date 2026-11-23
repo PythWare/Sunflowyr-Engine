@@ -1,0 +1,30 @@
+{
+  "unityVersion": "5.4.1p4",
+  "classId": 222,
+  "nodes": [
+    [
+      0,
+      "CanvasRenderer",
+      "Base",
+      0
+    ],
+    [
+      1,
+      "PPtr<GameObject>",
+      "m_GameObject",
+      65601
+    ],
+    [
+      2,
+      "int",
+      "m_FileID",
+      1
+    ],
+    [
+      2,
+      "SInt64",
+      "m_PathID",
+      1
+    ]
+  ]
+}

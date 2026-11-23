@@ -1,0 +1,36 @@
+{
+  "unityVersion": "5.4.1p4",
+  "classId": 81,
+  "nodes": [
+    [
+      0,
+      "AudioListener",
+      "Base",
+      32768
+    ],
+    [
+      1,
+      "PPtr<GameObject>",
+      "m_GameObject",
+      65601
+    ],
+    [
+      2,
+      "int",
+      "m_FileID",
+      65601
+    ],
+    [
+      2,
+      "SInt64",
+      "m_PathID",
+      65601
+    ],
+    [
+      1,
+      "UInt8",
+      "m_Enabled",
+      16641
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "unityVersion": "5.4.1p4",
+  "classId": 155,
+  "nodes": [
+    [
+      0,
+      "GlobalGameManager",
+      "Base",
+      0
+    ]
+  ]
+}

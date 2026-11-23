@@ -1,0 +1,96 @@
+{
+  "unityVersion": "5.4.1p4",
+  "classId": 11,
+  "nodes": [
+    [
+      0,
+      "AudioManager",
+      "Base",
+      32768
+    ],
+    [
+      1,
+      "float",
+      "m_Volume",
+      2048
+    ],
+    [
+      1,
+      "float",
+      "Rolloff Scale",
+      0
+    ],
+    [
+      1,
+      "float",
+      "Doppler Factor",
+      0
+    ],
+    [
+      1,
+      "int",
+      "Default Speaker Mode",
+      0
+    ],
+    [
+      1,
+      "int",
+      "m_SampleRate",
+      0
+    ],
+    [
+      1,
+      "int",
+      "m_DSPBufferSize",
+      0
+    ],
+    [
+      1,
+      "int",
+      "m_VirtualVoiceCount",
+      0
+    ],
+    [
+      1,
+      "int",
+      "m_RealVoiceCount",
+      0
+    ],
+    [
+      1,
+      "string",
+      "m_SpatializerPlugin",
+      32768
+    ],
+    [
+      2,
+      "Array",
+      "Array",
+      16385
+    ],
+    [
+      3,
+      "int",
+      "size",
+      1
+    ],
+    [
+      3,
+      "char",
+      "data",
+      1
+    ],
+    [
+      1,
+      "bool",
+      "m_DisableAudio",
+      0
+    ],
+    [
+      1,
+      "bool",
+      "m_VirtualizeEffects",
+      16384
+    ]
+  ]
+}
