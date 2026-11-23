@@ -1,22 +1,42 @@
 # Sunflowyr Engine
 
-Sunflowyr Engine is upcoming high end modding software for RWBY Grimm Eclipse. Scroll to bottom if you want to see GUI examples
+Sunflowyr Engine is high end modding software for RWBY Grimm Eclipse. Scroll to bottom if you want to see GUI examples
 
-It's a modding engine i'm developing to make modding RWBY GE significantly easier and pleasant to use. It's RWBY inspired.
+It's a modding engine I developed to make modding RWBY GE significantly easier and pleasant to use. It's RWBY inspired.
 
-Sunflowyr Engine will also include other software I made such as AssetBundle Generator (used for generating new AssetBundle files for RWBY GE to load, will be explained further down in AssetBundle Generator section), Asset Finder, Asset Inspector, Map Browser, etc for usage as well.
+Sunflowyr Engine will also include other software I made such as Loose Builder (used for creating loose file mods), AssetBundle Generator (used for generating new AssetBundle files for RWBY GE to load, will be explained further down in AssetBundle Generator section), Asset Finder, Asset Inspector, etc for usage as well.
 
 # Details
 
-It unpacks everything from the RWBY GE containers, assigns taildata to an external json, converts various formats to easier to edit formats (GLB, PNG, wav, etc) but it still keeps the original Unity formats incase modders want to work with the Unity format versions, etc.
+SE unpacks everything from the RWBY GE containers, assigns taildata to an external json, converts various formats to easier to edit formats (GLB, PNG, wav, etc) but it still keeps the original Unity formats incase modders want to work with the Unity format versions, etc.
 
 New assets can be used in RWBY GE with Sunflowyr Engine without having to replace original assets
 
-There is no size limits for mods, you aren't required to keep mods the same size as the original files, dynamic file sizes are supported so whether your mods are smaller/larger doesn't matter.
+# Loose Builder, used for Loose Mods
+
+Loose Builder is used for installing the loader if it already isn't installed and compiling modded unpacked files/new assets to be used by RWBY GE into formats Unity expects. What that means is modders mod whatever the fuck they want, when finished they open Loose Builder, enter the metadata in Mod Info tab, and then press the Build Mod button. Very easy
+
+To share mods, zip your mods with the zip button in the Installed Mods tab.
+
+# Asset Finder
+
+Asset Finder may be the most useful part of SE besides the unpacking and Loose Builder. Asset Finder makes modders' job far easier, it's more useful than windows explorer for locating files for RWBY GE imo. You can easily type in the search bar for explorer the name of a file and see the directory but you can't be automatically told what bundle that file came from ya know? But Asset Finder can, whereas explorer would choke on some of the modding tasks, Asset Finder can do a lot of things explorer can't. You can search for assets just like explorer, search based on the unity path ID, list all files belonging to a bundle, etc.
+
+# Bundle Inspector
+
+Think of it as a tool for the curious, you'd use the main unpacker at the home screen instead of BI. What Bundle Inspector is useful for is inspecting inside assetbundles. You can use BI on RWBY GE's vanilla bundles if desired but really, BI is most useful for inspecting a modder's AssetBundle. Like, suppose you want to find out what files were modded for older mods made years ago (back then modders made AssetBundle mods). You can use BI to inspect inside those bundles modders made back then, if you have permission from them you could unpack their bundles and recreate their mod as an updated loose mod or updated AssetBundle.
+
+So like I said, BI is a tool for the curious.
+
+# Shader Compiler
+
+Useful if you intend to make Shader mods. It can compile your HLSL code to DXBC
 
 # AssetBundle Generator
 
 Sunflowyr Engine's AssetBundle Generator can create valid AssetBundles for RWBY GE to use without needing Unity. What that means is you can make mods by building an AssetBundle without needing Unity installed.
+
+By default I have AssetBundle Generator greyed out until it's clicked on because I didn't get enough testers for testing AssetBundle mods made with SE before release. So the option exists to use AssetBundle Generator to create AssetBundle mods (just click the greyed out icon) but I highly suggest most modders use Loose Builder instead for loose mods.
 
 # Sunflowyr Engine updates
 
