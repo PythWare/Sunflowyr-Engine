@@ -56,7 +56,7 @@ Unpack Set panel: This is where you select/deselect what you want unpacked, I su
 
 # Unpack speed
 
-SE's unpacking speed scales with your hardware, it's fuckin fast but for most people it will probably take 5 or so minutes for a full unpack. That's just how it is, get the fuck over it! It's a lot of work being done by SE to do a full unpack (parsing, decompressing, conversions to editable formats, etc). For the fastest possible unpacking speed, make sure you're unpacking to a SSD instead of HDD and set your windows defender/antivirus to exclude the folder you unpack RWBY GE too cause otherwise that will impact your unpack speed.
+SE's unpacking speed scales with your hardware, it's fuckin fast but for most people it will probably take 5 or so minutes for a full unpack. That's just how it is. It's a lot of work being done by SE to do a full unpack (parsing, decompressing, conversions to editable formats, etc). For the fastest possible unpacking speed, make sure you're unpacking to a SSD instead of HDD and set your windows defender/antivirus to exclude the folder you unpack RWBY GE too cause otherwise that will impact your unpack speed.
 
 # Loose Builder, used for Loose Mods
 
