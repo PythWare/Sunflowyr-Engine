@@ -4,7 +4,11 @@ Sunflowyr Engine is high end modding software for RWBY Grimm Eclipse. Scroll to 
 
 It's a modding engine I developed to make modding RWBY GE significantly easier and pleasant to use. It's RWBY inspired.
 
-Sunflowyr Engine will also include other software I made such as Loose Builder (used for creating loose file mods), AssetBundle Generator (used for generating new AssetBundle files for RWBY GE to load, will be explained further down in AssetBundle Generator section), Asset Finder, Asset Inspector, etc for usage as well.
+Sunflowyr Engine also includes other software I made such as Loose Builder (used for creating loose file mods), AssetBundle Generator (used for generating new AssetBundle files for RWBY GE to load, will be explained further down in AssetBundle Generator section), Asset Finder, Asset Inspector, etc for usage as well.
+
+SE is entirely coded manually, no AI was used (same with all my software I release on github). I have been working on SE since 2025, it's my biggest modding project. I hope everyone likes it
+
+SE's name (Sunflowyr Engine) is inspired by the Yang Xiao Long x Lie Ren pairing, if you don't like the software's name, I don't care. I designed the software and I will name it what i want to!
 
 # Details
 
@@ -12,7 +16,7 @@ SE unpacks everything from the RWBY GE containers, assigns taildata to an extern
 
 New assets can be used in RWBY GE with Sunflowyr Engine without having to replace original assets
 
-I suggest reading SE_Guide.txt within the Guide folder before using SE
+I suggest reading SE_Guide.txt within the Guide folder before using SE but the quicky is gamers that don't intend to make mods don't need to unpack the game (you just need to install mods with the Loose Builder and install the loader), modders will have to unpack the game if they wish to mod RWBY GE assets.
 
 # What's needed to use SE
 
@@ -25,6 +29,30 @@ Once you have those 3 requirements, all you have to do to use SE is double click
 I may someday translate the Python code to C or Rust so that python isn't needed but it's a lot of fucking code for making RWBY GE accessible for modding, as of 11/22/2026 the codebase is near 50k lines of code. So if it bothers you to download python, get the fuck over it or get out!
 
 Now if you're on linux or mac, idk how well SE will work for you. I develop on windows and I can't test my software on an OS I don't own. I can vouch for SE working on windows. So for linux, I suggest using wine with SE if you intend to use the Shader Compiler. For mac users, why are you using mac to play a windows built game? Get a real computer for playing games!
+
+# exiting SE and always on top mode
+
+To exit SE just click the Esc button. The entire point of SE's GUI is to be similar to RWBY scrolls, so there's no X icon for you to click to exit the software, you simply click the escape button. To stop SE from always being on top, click f1 when using SE.
+
+# Icons explained
+
+This briefly explains what each icon is used for in the software
+
+Left stack of folders: Bundle Inspector
+
+Middle stack of folders: Shader Compiler
+
+Right stack of folders: AssetBundle Generator
+
+House: takes you back to SE's homescreen
+
+Globe: Takes you to Loose Builder
+
+Magnifying glass: Asset Finder
+
+Mail: SE Updates
+
+Unpack Set panel: This is where you select/deselect what you want unpacked, I suggest for modders doing a full unpack since a lot of files get referenced by other ones but up to you. To scroll through the options in unpack set hold down the left click while moving up/down with your mouse. I'll probably add a scrollbar later. Fair warning, a full unpack is 800k+ files so make sure to use Asset Finder as needed.
 
 # Unpack speed
 
