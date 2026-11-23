@@ -8,7 +8,7 @@ Sunflowyr Engine also includes other software I made such as Loose Builder (used
 
 SE is entirely coded manually, no AI was used (same with all my software I release on github). I have been working on SE since 2025, it's my biggest modding project. I hope everyone likes it
 
-SE's name (Sunflowyr Engine) is inspired by the Yang Xiao Long x Lie Ren pairing. If you don't like the software's name, I don't care. I designed the software and I will name it what i want to!
+SE's name (Sunflowyr Engine) is inspired by the Yang Xiao Long x Lie Ren pairing. I designed the software and I will name it what i want to!
 
 # Details
 
@@ -26,9 +26,9 @@ To install pillow and numpy, open up your command prompt and type `python -m pip
 
 Once you have those 3 requirements, all you have to do to use SE is double click on main.pyw. It should popup with the scroll GUI. If for some reason it doesnt (faulty python install, association issues, etc) then open up cmd in the directory you have SE installed at and type `python main.pyw`
 
-I may someday translate the Python code to C or Rust so that python isn't needed but it's a lot of fucking code for making RWBY GE accessible for modding, as of 11/22/2026 the codebase is near 50k lines of code. So if it bothers you to download python, get the fuck over it or get out!
+I may someday translate the Python code to C or Rust so that python isn't needed but it's a lot of fucking code for making RWBY GE accessible for modding, as of 11/22/2026 the codebase is near 50k lines of code.
 
-Now if you're on linux or mac, idk how well SE will work for you. I develop on windows and I can't test my software on an OS I don't own. I can vouch for SE working on windows. So for linux, I suggest using wine with SE if you intend to use the Shader Compiler. For mac users, why are you using mac to play a windows built game? Get a real computer for playing games!
+Now if you're on linux or mac, idk how well SE will work for you. I develop on windows and I can't test my software on an OS I don't own. I can vouch for SE working on windows. So for linux, I suggest using wine with SE if you intend to use the Shader Compiler. For mac users, get a real computer for playing games!
 
 # exiting SE and always on top mode
 
