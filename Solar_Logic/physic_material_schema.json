@@ -1,0 +1,66 @@
+{
+  "unityVersion": "5.4.1p4",
+  "classId": 134,
+  "nodes": [
+    [
+      0,
+      "PhysicMaterial",
+      "Base",
+      0
+    ],
+    [
+      1,
+      "string",
+      "m_Name",
+      1
+    ],
+    [
+      2,
+      "Array",
+      "Array",
+      16385
+    ],
+    [
+      3,
+      "int",
+      "size",
+      0
+    ],
+    [
+      3,
+      "char",
+      "data",
+      0
+    ],
+    [
+      1,
+      "float",
+      "dynamicFriction",
+      2048
+    ],
+    [
+      1,
+      "float",
+      "staticFriction",
+      2048
+    ],
+    [
+      1,
+      "float",
+      "bounciness",
+      2048
+    ],
+    [
+      1,
+      "int",
+      "frictionCombine",
+      0
+    ],
+    [
+      1,
+      "int",
+      "bounceCombine",
+      0
+    ]
+  ]
+}

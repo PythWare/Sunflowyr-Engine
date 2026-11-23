@@ -1,0 +1,30 @@
+{
+  "unityVersion": "5.4.1p4",
+  "classId": 5,
+  "nodes": [
+    [
+      0,
+      "TimeManager",
+      "Base",
+      0
+    ],
+    [
+      1,
+      "float",
+      "Fixed Timestep",
+      2048
+    ],
+    [
+      1,
+      "float",
+      "Maximum Allowed Timestep",
+      2048
+    ],
+    [
+      1,
+      "float",
+      "m_TimeScale",
+      2048
+    ]
+  ]
+}

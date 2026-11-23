@@ -1,0 +1,10 @@
+[0.7] 10/2026
+Sunflowyr Engine GUI has changed
+- Overall app has had the GUI updated to be more similar to RWBY scrolls.
+- The scroll slides shut when Sunflowyr Engine closes.
+- Mail icon now works for showing SE updates.
+
+[0.8] 11/2026
+Sunflowyr Engine has had some of its software changed & new features added
+- Loose File Mods for RWBY GE are now supported.
+- Map Browser is replaced with Loose Builder.

@@ -1,0 +1,30 @@
+{
+  "unityVersion": "5.4.1p4",
+  "classId": 196,
+  "nodes": [
+    [
+      0,
+      "NavMeshSettings",
+      "Base",
+      0
+    ],
+    [
+      1,
+      "PPtr<NavMeshData>",
+      "m_NavMeshData",
+      0
+    ],
+    [
+      2,
+      "int",
+      "m_FileID",
+      1
+    ],
+    [
+      2,
+      "SInt64",
+      "m_PathID",
+      1
+    ]
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "unityVersion": "5.4.1p4",
+  "classId": 148,
+  "nodes": [
+    [
+      0,
+      "NetworkView",
+      "Base",
+      32768
+    ],
+    [
+      1,
+      "PPtr<GameObject>",
+      "m_GameObject",
+      65601
+    ],
+    [
+      2,
+      "int",
+      "m_FileID",
+      65601
+    ],
+    [
+      2,
+      "SInt64",
+      "m_PathID",
+      65601
+    ],
+    [
+      1,
+      "UInt8",
+      "m_Enabled",
+      16641
+    ],
+    [
+      1,
+      "int",
+      "m_StateSynchronization",
+      0
+    ],
+    [
+      1,
+      "PPtr<Component>",
+      "m_Observed",
+      0
+    ],
+    [
+      2,
+      "int",
+      "m_FileID",
+      1
+    ],
+    [
+      2,
+      "SInt64",
+      "m_PathID",
+      1
+    ],
+    [
+      1,
+      "NetworkViewID",
+      "m_ViewID",
+      16
+    ],
+    [
+      2,
+      "unsigned int",
+      "m_ID",
+      16
+    ],
+    [
+      2,
+      "unsigned int",
+      "m_Type",
+      16
+    ]
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "unityVersion": "5.4.1p4",
+  "classId": 45,
+  "nodes": [
+    [
+      0,
+      "Skybox",
+      "Base",
+      32768
+    ],
+    [
+      1,
+      "PPtr<GameObject>",
+      "m_GameObject",
+      65601
+    ],
+    [
+      2,
+      "int",
+      "m_FileID",
+      65601
+    ],
+    [
+      2,
+      "SInt64",
+      "m_PathID",
+      65601
+    ],
+    [
+      1,
+      "UInt8",
+      "m_Enabled",
+      16641
+    ],
+    [
+      1,
+      "PPtr<Material>",
+      "m_CustomSkybox",
+      2048
+    ],
+    [
+      2,
+      "int",
+      "m_FileID",
+      2049
+    ],
+    [
+      2,
+      "SInt64",
+      "m_PathID",
+      2049
+    ]
+  ]
+}
