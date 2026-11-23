@@ -1,6 +1,6 @@
 # Sunflowyr Engine
 
-Sunflowyr Engine is high end modding software for RWBY Grimm Eclipse. Scroll to bottom if you want to see GUI examples
+Sunflowyr Engine is high end modding software for RWBY Grimm Eclipse. Scroll to the bottom of the readme if you want to see GUI examples of the software
 
 It's a modding engine I developed to make modding RWBY GE significantly easier and pleasant to use. It's RWBY inspired.
 
@@ -11,6 +11,24 @@ Sunflowyr Engine will also include other software I made such as Loose Builder (
 SE unpacks everything from the RWBY GE containers, assigns taildata to an external json, converts various formats to easier to edit formats (GLB, PNG, wav, etc) but it still keeps the original Unity formats incase modders want to work with the Unity format versions, etc.
 
 New assets can be used in RWBY GE with Sunflowyr Engine without having to replace original assets
+
+I suggest reading SE_Guide.txt within the Guide folder before using SE
+
+# What's needed to use SE
+
+Python, Pillow, numpy. Pretty small requirements tho make sure you have the latest Pillow (11.2)/numpy(1.24) installed
+
+To install pillow and numpy, open up your command prompt and type `python -m pip install Pillow numpy`
+
+Once you have those 3 requirements, all you have to do to use SE is double click on main.pyw. It should popup with the scroll GUI. If for some reason it doesnt (faulty python install, association issues, etc) then open up cmd in the directory you have SE installed at and type `python main.pyw`
+
+I may someday translate the Python code to C or Rust so that python isn't needed but it's a lot of fucking code for making RWBY GE accessible for modding, as of 11/22/2026 the codebase is near 50k lines of code. So if it bothers you to download python, get the fuck over it or get out!
+
+Now if you're on linux or mac, idk how well SE will work for you. I develop on windows and I can't test my software on an OS I don't own. I can vouch for SE working on windows. So for linux, I suggest using wine with SE if you intend to use the Shader Compiler. For mac users, why are you using mac to play a windows built game? Get a real computer for playing games!
+
+# Unpack speed
+
+SE's unpacking speed scales with your hardware, it's fuckin fast but for most people it will probably take 5 or so minutes for a full unpack. That's just how it is, get the fuck over it! It's a lot of work being done by SE to do a full unpack (parsing, decompressing, conversions to editable formats, etc). For the fastest possible unpacking speed, make sure you're unpacking to a SSD instead of HDD and set your windows defender/antivirus to exclude the folder you unpack RWBY GE too cause otherwise that will impact your unpack speed.
 
 # Loose Builder, used for Loose Mods
 
