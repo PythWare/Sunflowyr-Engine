@@ -30,9 +30,9 @@ I may someday translate the Python code to C or Rust so that python isn't needed
 
 Now if you're on linux or mac, idk how well SE will work for you. I develop on windows and I can't test my software on an OS I don't own. I can vouch for SE working on windows. So for linux, I suggest using wine with SE if you intend to use the Shader Compiler. For mac users, get a real computer for playing games!
 
-# exiting SE and always on top mode
+# exiting SE, moving, and always on top mode
 
-To exit SE just click the Esc button. The entire point of SE's GUI is to be similar to RWBY scrolls, so there's no X icon for you to click to exit the software, you simply click the escape button. To stop SE from always being on top, click f1 when using SE.
+To exit SE just click the Esc button. The entire point of SE's GUI is to be similar to RWBY scrolls, so there's no X icon for you to click to exit the software, you simply click the escape button. To move the software when it's opened hold the right click button to move it. To stop SE from always being on top, click f1 when using SE.
 
 # Icons explained
 
@@ -57,6 +57,10 @@ Unpack Set panel: This is where you select/deselect what you want unpacked, I su
 # Unpack speed
 
 SE's unpacking speed scales with your hardware, it's fuckin fast but for most people it will probably take 5 or so minutes for a full unpack. That's just how it is. It's a lot of work being done by SE to do a full unpack (parsing, decompressing, conversions to editable formats, etc). For the fastest possible unpacking speed, make sure you're unpacking to a SSD instead of HDD and set your windows defender/antivirus to exclude the folder you unpack RWBY GE too cause otherwise that will impact your unpack speed.
+
+# zips for some formats (relevant for modders, gamers can ignore this)
+
+Some RWBY GE files are unpacked as zips with a custom extension due to the vast amount of files that unpack during a full unpack. An example would be shaders, .sshader is the extension I gave but it's just a zip with a bunch of files being used for said shaders. Just unzip any zipped files with 7zip or somethin, mod whatever you want, and then rezip (but make sure the file extension is what the original file had, so in this case say "3D GUI (World)__path1126.sshader" was modded, when you rezip with something like 7zip it becomes .zip, just rename the .zip to .sshader). Another example are the AnimationClips, SE unpacks them as .sanim but it's just a zip due to the large file count. Same process as .sshader, for anything that's zipped tbh. Unzip, mod away, rezip, rename extension back to what SE expects
 
 # Loose Builder, used for Loose Mods
 
